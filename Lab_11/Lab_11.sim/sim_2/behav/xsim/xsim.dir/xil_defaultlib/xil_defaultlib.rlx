@@ -2,11 +2,12 @@
 2020.1
 May 27 2020
 20:09:33
-C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.sim/sim_2/behav/xsim/glbl.v,1606174805,verilog,,,,glbl,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.sim/sim_2/behav/xsim/glbl.v,1606238856,verilog,,,,glbl,,,,,,,,
+,,,,,,debounce_test,,,,,,,,
 C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sim_2/new/game_test.sv,1606193955,systemVerilog,,,,game_test,,,,,,,,
 C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sim_2/new/guess_FSM_test.sv,1606192480,systemVerilog,,,,guess_FSM_test,,,,,,,,
-C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/debounce.sv,1606174980,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/guess_FSM.sv,,debounce,,,,,,,,
-C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/counter.sv,1606181263,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/debounce.sv,,counter,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/debounce.sv,1606238856,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sim_2/debounce_test.sv,,debounce,,,,,,,,
+C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/counter.sv,1606238856,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/debounce.sv,,counter,,,,,,,,
 C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/guess_FSM.sv,1606188248,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/guessing_game.sv,,guess_FSM,,,,,,,,
 C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/guessing_game.sv,1606188864,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/sseg_game.sv,,guessing_game,,,,,,,,
 C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sources_1/new/sseg_game.sv,1606187736,systemVerilog,,C:/Users/spencer_stinson1/Documents/GitHub/Lab11/Lab_11/Lab_11.srcs/sim_2/new/game_test.sv,,sseg_game,,,,,,,,
