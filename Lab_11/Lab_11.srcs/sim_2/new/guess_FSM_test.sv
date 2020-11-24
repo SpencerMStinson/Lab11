@@ -40,8 +40,16 @@ always begin
 clk = ~clk; #5; 
 end
 
-
-
-
-
+initial begin
+en = 1; 
+clk = 0; rst = 1; #10; rst = 0; 
+b= 4'b0000; #10; rst = 1; #10; rst = 0; 
+b= 4'b0001; #10; rst = 1; #10; rst = 0;
+b= 4'b0000; #10; rst = 1; #10; rst = 0;
+b= 4'b0010; #10; rst = 1; #10; rst = 0;
+b= 4'b0000; #10; rst = 1; #10; rst = 0;
+b= 4'b0100; #10; rst = 1; #10; rst = 0;
+b= 4'b0000; #10; rst = 1; #10; rst = 0;
+b= 4'b1101; #10; rst = 1; #10; rst = 0;
+end 
 endmodule 
