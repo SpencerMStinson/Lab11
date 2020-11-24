@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/12/2020 11:20:14 AM
+// Create Date: 11/23/2020 06:46:39 PM
 // Design Name: 
-// Module Name: mux
+// Module Name: guessing_game
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,21 +20,28 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux_test ();
-reg in1_t;
-reg in0_t;
-reg sel_t;
-wire out_t;
+module guess_FSM_test ();
 
-mux dut( 
-.in1(in1_t),
-.in0(in0_t),
-.sel(sel_t),
-.out(out_t)
+reg clk, rst, en;
+reg [3:0] b, y;
+reg win, lose;
+
+
+guess_FSM dut(
+    .b(b),
+    .clk(clk),
+    .rst(rst),
+    .en(en),
+    .win(win),
+    .lose(lose),
+    .y(y)
 );
-initial begin 
-in1_t = 1; in0_t = 0; sel_t = 1; #10;
-sel_t = 0; #10;
-$finish ;
+always begin 
+clk = ~clk; #5; 
 end
+
+
+
+
+
 endmodule 

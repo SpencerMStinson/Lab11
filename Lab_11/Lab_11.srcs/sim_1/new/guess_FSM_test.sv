@@ -3,9 +3,9 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/12/2020 11:20:14 AM
+// Create Date: 11/23/2020 09:43:56 PM
 // Design Name: 
-// Module Name: mux
+// Module Name: guess_FSM_test
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
@@ -20,13 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module mux(
-    input in1,
-    input in0,
-    input sel,
-    output out
+module guess_FSM_test(
+
     );
-    
-    assign out = sel ? in1 : in0;
-    
 endmodule

@@ -22,10 +22,24 @@
 
 module counter #(parameter N =21)  (
     input clk,
-    output out
+    input rst,
+    output out,
+    output out2
     );
+    reg [N-1:0] q;
+    reg [N-1:0] qnext;
     
-    assign ;
-    
+    always @(posedge(clk), posedge(rst)) begin 
+    if (rst) 
+        q <= 0 ;
+    else 
+        q <= qnext;
+    end
+ 
+    always @*
+        qnext = q +1;
+       
+    assign out  =& q[N-1:0];
+    assign out2 =& q[N-2:0];
     
 endmodule
